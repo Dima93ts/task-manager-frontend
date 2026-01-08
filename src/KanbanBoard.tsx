@@ -1,6 +1,6 @@
 import { useSortable } from "@dnd-kit/sortable";
 import { CSS } from "@dnd-kit/utilities";
-import { Task } from "./App";
+import { Task } from "./types";
 import "./Kanban.css";
 
 interface KanbanCardProps {

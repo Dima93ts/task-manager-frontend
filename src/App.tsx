@@ -3,18 +3,8 @@ import axios from "axios";
 import jsPDF from "jspdf";
 import html2canvas from "html2canvas";
 import "./App.css";
+import { Task } from "./types";
 
-interface Task {
-  id: number;
-  clientName: string;
-  projectName: string;
-  title: string;
-  description: string;
-  status: string;
-  priority: string;
-  dueDate: string;
-  estimatedHours: number;
-}
 
 const API_URL = "https://task-manager-api-2-8pjn.onrender.com/api/tasks";
 
